@@ -6,6 +6,12 @@ z = rd.randint(0,1000)
 
 resultado = (x+y)+z
 
-resultado 2 = resultado + 2022
+rd.seed(0)
 
-print(resultado)
+x = rd.random() 
+y = rd.random()
+z = rd.random()
+
+resultado2=x+(y+z)
+
+print(resultado2)
