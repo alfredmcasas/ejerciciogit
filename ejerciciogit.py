@@ -1,11 +1,11 @@
 import random as rd
 
-x = rd.randint(0,1000)
-y = rd.randint(0,1000)
-z = rd.randint(0,1000)
+rd.seed(0)
 
-resultado = (x+y)+z
+x = rd.random() 
+y = rd.random()
+z = rd.random()
 
-resultado 2 = resultado + 2022
+resultado2=x+(y+z)
 
-print(resultado)
+print(resultado2)
